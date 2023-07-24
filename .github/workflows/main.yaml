@@ -39,6 +39,7 @@ jobs:
 
       - name: console.log
         run: |
+          echo $RUNNER_TOOL_CACHE
           node --version
           docker --version
           docker info
