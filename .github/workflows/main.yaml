@@ -8,6 +8,7 @@ concurrency:
 
 jobs:
   test:
+    runs-on: self-hosted
     services:
       postgres:
         image: public.ecr.aws/docker/library/postgres:12.6-alpine
